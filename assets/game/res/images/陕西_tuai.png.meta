@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "1b239c1a-a59b-40f2-bac6-6275ff480604",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 294,
+  "height": 431,
+  "platformSettings": {},
+  "subMetas": {
+    "陕西_tuai": {
+      "ver": "1.0.4",
+      "uuid": "e412df76-e8f8-441f-8f7b-8d64291d82fe",
+      "rawTextureUuid": "1b239c1a-a59b-40f2-bac6-6275ff480604",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -12.5,
+      "offsetY": 2,
+      "trimX": 15,
+      "trimY": 36,
+      "width": 239,
+      "height": 355,
+      "rawWidth": 294,
+      "rawHeight": 431,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

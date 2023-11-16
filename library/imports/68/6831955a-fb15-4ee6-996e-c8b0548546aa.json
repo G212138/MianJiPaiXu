@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "neikuang",
+    "texture": "1cecdc3c-41b2-46be-bbdb-bb62295b4b03",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      174,
+      183
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      174,
+      183
+    ],
+    "capInsets": [
+      16,
+      18,
+      17,
+      20
+    ]
+  }
+}

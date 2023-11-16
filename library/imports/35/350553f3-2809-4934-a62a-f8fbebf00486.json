@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "内蒙_tuqi",
+    "texture": "cb3d26a8-1e74-4e5d-a29b-f7e4e62cb4e4",
+    "atlas": "",
+    "rect": [
+      45,
+      9,
+      854,
+      640
+    ],
+    "offset": [
+      -12.5,
+      -4.5
+    ],
+    "originalSize": [
+      969,
+      649
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

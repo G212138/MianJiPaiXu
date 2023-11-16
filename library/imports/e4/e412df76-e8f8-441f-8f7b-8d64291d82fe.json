@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "陕西_tuai",
+    "texture": "1b239c1a-a59b-40f2-bac6-6275ff480604",
+    "atlas": "",
+    "rect": [
+      15,
+      36,
+      239,
+      355
+    ],
+    "offset": [
+      -12.5,
+      2
+    ],
+    "originalSize": [
+      294,
+      431
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

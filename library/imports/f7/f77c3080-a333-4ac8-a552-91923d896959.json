@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "04_qurenanniu",
+    "texture": "af819c30-b84f-4d25-a2bc-51ed34ae90c0",
+    "atlas": "",
+    "rect": [
+      19,
+      8,
+      198,
+      108
+    ],
+    "offset": [
+      4.5,
+      0.5
+    ],
+    "originalSize": [
+      227,
+      125
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

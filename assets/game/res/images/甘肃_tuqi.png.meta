@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "a41dbd16-c1db-45bc-a90d-97c7c2c103a1",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 617,
+  "height": 518,
+  "platformSettings": {},
+  "subMetas": {
+    "甘肃_tuqi": {
+      "ver": "1.0.4",
+      "uuid": "9d4a4147-3d5d-474b-8122-f7fdc6d8915f",
+      "rawTextureUuid": "a41dbd16-c1db-45bc-a90d-97c7c2c103a1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -9.5,
+      "offsetY": 2.5,
+      "trimX": 15,
+      "trimY": 25,
+      "width": 568,
+      "height": 463,
+      "rawWidth": 617,
+      "rawHeight": 518,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

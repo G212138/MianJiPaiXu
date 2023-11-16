@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "四川_tuqi",
+    "texture": "260f11ad-0e1b-4d31-9dc9-ada527ed9f0b",
+    "atlas": "",
+    "rect": [
+      40,
+      20,
+      441,
+      436
+    ],
+    "offset": [
+      7,
+      -5.5
+    ],
+    "originalSize": [
+      507,
+      465
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

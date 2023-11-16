@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "宁夏_tuqi",
+    "texture": "e45fbe7c-e937-4614-b7ec-b103f9bdc941",
+    "atlas": "",
+    "rect": [
+      35,
+      37,
+      125,
+      171
+    ],
+    "offset": [
+      0.5,
+      2.5
+    ],
+    "originalSize": [
+      194,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "河南_tuqi",
+    "texture": "efb65918-6dd5-412f-875d-4a6acfef9337",
+    "atlas": "",
+    "rect": [
+      31,
+      50,
+      244,
+      241
+    ],
+    "offset": [
+      -3,
+      -8.5
+    ],
+    "originalSize": [
+      312,
+      324
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

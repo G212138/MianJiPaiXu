@@ -1,0 +1,1639 @@
+{
+"skeleton": {
+	"hash": "ROXRT6l5eGrtdRxudn0aXMWYu0g",
+	"spine": "3.8.75",
+	"x": 110,
+	"y": -653,
+	"width": 887,
+	"height": 799,
+	"images": "",
+	"audio": "C:/Users/Administrator/Desktop/母亲河动画"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": 526.77, "y": -578.45 },
+	{ "name": "bone2", "parent": "root", "x": 537.16, "y": -770.38 },
+	{ "name": "bone3", "parent": "bone2", "x": 220.04, "y": 649.02 },
+	{ "name": "bone4", "parent": "bone2", "x": 321.76, "y": 450.44 },
+	{ "name": "bone5", "parent": "bone2", "x": 202.57, "y": 372.75 },
+	{ "name": "bone6", "parent": "bone2", "x": 88.7, "y": 397.23, "color": "f6b41aff" },
+	{ "name": "bone7", "parent": "root", "x": 454.16, "y": -244.22 },
+	{ "name": "bone8", "parent": "bone2", "x": -230.56, "y": 477.05 },
+	{ "name": "bone9", "parent": "bone2", "x": -90.09, "y": 272.72 },
+	{ "name": "bone10", "parent": "bone9", "x": 65.56, "y": 22.61 },
+	{ "name": "bone11", "parent": "bone9", "x": -19.53, "y": 18.81 },
+	{ "name": "bone12", "parent": "bone2", "x": -453.76, "y": 501.63 },
+	{ "name": "bone13", "parent": "bone2", "x": -342.86, "y": 128.3 },
+	{ "name": "bone14", "parent": "bone6", "x": -15.39, "y": -37.86, "color": "f6b41aff" },
+	{ "name": "bone15", "parent": "bone6", "x": 43.98, "y": 6.88, "color": "f6b41aff" },
+	{ "name": "bone16", "parent": "bone5", "x": 87.94, "y": -12.43 },
+	{ "name": "bone17", "parent": "bone5", "x": -15.28, "y": -37.28 },
+	{ "name": "bone18", "parent": "bone4", "x": 47.47, "y": -20.61 },
+	{ "name": "bone19", "parent": "bone4", "x": 26.41, "y": 77.1 },
+	{ "name": "bone20", "parent": "bone3", "x": -105.75, "y": -0.6 },
+	{ "name": "bone21", "parent": "bone3", "x": 46.81, "y": 17.58 },
+	{ "name": "bone22", "parent": "bone2", "x": 18.54, "y": 489.39 },
+	{ "name": "bone23", "parent": "bone22", "x": 1.01, "y": 57.98 },
+	{ "name": "bone24", "parent": "bone22", "x": -19.16, "y": -39.33 },
+	{ "name": "bone25", "parent": "bone7", "x": -43.2, "y": 46.24 },
+	{ "name": "bone26", "parent": "bone7", "x": -117.24, "y": 101.76 },
+	{ "name": "bone27", "parent": "bone8", "x": 34.09, "y": -31 },
+	{ "name": "bone28", "parent": "bone8", "x": -54.29, "y": 1.79 },
+	{ "name": "bone29", "parent": "bone2", "x": 173.88, "y": 478.41 },
+	{ "name": "bone30", "parent": "bone29", "x": 20.41, "y": -7.52 },
+	{ "name": "bone31", "parent": "bone29", "x": 31.16, "y": 54.79 },
+	{ "name": "bone32", "parent": "bone2", "x": 74.88, "y": 545.79, "color": "ff0000ff" },
+	{ "name": "yanchen", "parent": "root", "x": -30.16, "y": -802.8 },
+	{ "name": "yanchen2", "parent": "root", "x": 142.09, "y": -678.4 },
+	{ "name": "yanchen3", "parent": "root", "x": 166.77, "y": -961 },
+	{ "name": "yanchen4", "parent": "root", "x": 391.87, "y": -790.18 },
+	{ "name": "yanchen5", "parent": "root", "x": 475.9, "y": -565.13 }
+],
+"slots": [
+	{ "name": "图层 5", "bone": "bone2" },
+	{ "name": "图层 86 拷贝", "bone": "root", "attachment": "图层 86 拷贝" },
+	{ "name": "图层 101 拷贝", "bone": "bone2" },
+	{ "name": "图层 91", "bone": "root", "attachment": "图层 91" },
+	{ "name": "图层 94", "bone": "root", "attachment": "图层 94" },
+	{ "name": "图层 95", "bone": "root", "attachment": "图层 95" },
+	{ "name": "图层 97", "bone": "root", "attachment": "图层 97" },
+	{ "name": "图层 98", "bone": "root", "attachment": "图层 98" },
+	{ "name": "图层 99", "bone": "root", "attachment": "图层 99" },
+	{ "name": "图层 92", "bone": "root", "attachment": "图层 92" },
+	{ "name": "图层 93", "bone": "root", "attachment": "图层 93" },
+	{ "name": "图层 103", "bone": "root", "attachment": "图层 103" },
+	{ "name": "蓝色河", "bone": "bone32", "attachment": "蓝色河" },
+	{ "name": "bone32", "bone": "bone32", "attachment": "bone32" },
+	{ "name": "变黄效果", "bone": "bone32", "attachment": "变黄效果" },
+	{ "name": "huangseditu", "bone": "root", "attachment": "11451433" },
+	{ "name": "huangseditu2", "bone": "root" },
+	{ "name": "11451432", "bone": "bone2" },
+	{ "name": "图层 88 拷贝 2", "bone": "bone13" },
+	{ "name": "图层 86", "bone": "bone2" },
+	{ "name": "11451431", "bone": "bone12" },
+	{ "name": "11451430", "bone": "bone12" },
+	{ "name": "11451429", "bone": "bone3", "attachment": "11451429" },
+	{ "name": "11451428", "bone": "bone22", "attachment": "11451428" },
+	{ "name": "11451426", "bone": "bone7", "attachment": "11451426" },
+	{ "name": "11451425", "bone": "bone22", "attachment": "11451425" },
+	{ "name": "11451423", "bone": "bone8", "attachment": "11451423" },
+	{ "name": "11451421", "bone": "bone7", "attachment": "11451421" },
+	{ "name": "11451419", "bone": "bone3", "attachment": "11451419" },
+	{ "name": "11451418", "bone": "bone6", "attachment": "11451418" },
+	{ "name": "11451416", "bone": "bone9", "attachment": "11451416" },
+	{ "name": "11451415", "bone": "bone9", "attachment": "11451415" },
+	{ "name": "11451413", "bone": "bone8", "attachment": "11451413" },
+	{ "name": "11451412", "bone": "bone29", "attachment": "11451412" },
+	{ "name": "11451411", "bone": "bone29", "attachment": "11451411" },
+	{ "name": "1145149", "bone": "bone5", "attachment": "1145149" },
+	{ "name": "1145148", "bone": "bone4", "attachment": "1145148" },
+	{ "name": "1145147", "bone": "bone4", "attachment": "1145147" },
+	{ "name": "1145145", "bone": "bone5", "attachment": "1145145" },
+	{ "name": "1145144", "bone": "bone6", "attachment": "1145144" },
+	{ "name": "图层 112", "bone": "bone16" },
+	{ "name": "图层 111", "bone": "bone19", "attachment": "图层 111" },
+	{ "name": "图层 110", "bone": "bone31", "attachment": "图层 110" },
+	{ "name": "图层 109", "bone": "bone20", "attachment": "图层 109" },
+	{ "name": "图层 108", "bone": "bone23", "attachment": "图层 108" },
+	{ "name": "图层 107", "bone": "bone14", "attachment": "图层 107" },
+	{ "name": "图层 106", "bone": "bone11", "attachment": "图层 106" },
+	{ "name": "图层 105", "bone": "bone26", "attachment": "图层 105" },
+	{ "name": "图层 104", "bone": "bone28", "attachment": "图层 104" },
+	{ "name": "青海", "bone": "bone27", "attachment": "青海" },
+	{ "name": "四川", "bone": "bone10", "attachment": "四川" },
+	{ "name": "甘肃", "bone": "bone25", "attachment": "甘肃" },
+	{ "name": "宁夏", "bone": "bone24", "attachment": "宁夏" },
+	{ "name": "内蒙古", "bone": "bone21", "attachment": "内蒙古" },
+	{ "name": "山西", "bone": "bone30", "attachment": "山西" },
+	{ "name": "河南", "bone": "bone17" },
+	{ "name": "山东", "bone": "bone18", "attachment": "山东" },
+	{ "name": "陕西", "bone": "bone15", "attachment": "陕西" },
+	{ "name": "烟尘2", "bone": "yanchen" },
+	{ "name": "烟尘5", "bone": "yanchen4" },
+	{ "name": "烟尘4", "bone": "yanchen3" },
+	{ "name": "烟尘6", "bone": "yanchen5" },
+	{ "name": "烟尘3", "bone": "yanchen2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"11451428": {
+				"11451428": { "x": 8.8, "y": 1.99, "width": 83, "height": 122 }
+			},
+			"河南": {
+				"河南": { "x": -1.45, "y": -0.6, "width": 82, "height": 39 }
+			},
+			"huangseditu": {
+				"11451433": { "x": 552, "y": -287.5, "width": 870, "height": 579 }
+			},
+			"图层 101 拷贝": {
+				"图层 101 拷贝": { "x": -25.16, "y": 483.88, "width": 1026, "height": 579 }
+			},
+			"11451429": {
+				"11451429": { "x": -85.2, "y": 19.86, "width": 600, "height": 487 }
+			},
+			"图层 5": {
+				"图层 5": { "x": -25.16, "y": 482.38, "width": 1026, "height": 578 }
+			},
+			"图层 86": {
+				"图层 86": { "x": -34.16, "y": 478.88, "width": 1042, "height": 587 }
+			},
+			"图层 88 拷贝 2": {
+				"图层 88 拷贝 2": { "x": 308.7, "y": 350.58, "width": 1042, "height": 587 }
+			},
+			"蓝色河": {
+				"蓝色河": { "x": -23.03, "y": -50.92, "width": 610, "height": 207 }
+			},
+			"bone32": {
+				"bone32": {
+					"type": "clipping",
+					"end": "变黄效果",
+					"vertexCount": 4,
+					"vertices": [ -283.17, 39.29, -231.83, 33.71, -235.18, -167.21, -288.75, -163.86 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"11451411": {
+				"11451411": { "x": 7.96, "y": 12.97, "width": 108, "height": 194 }
+			},
+			"11451412": {
+				"11451412": { "x": 12.96, "y": 7.97, "width": 108, "height": 190 }
+			},
+			"11451413": {
+				"11451413": { "x": -9.6, "y": -4.17, "width": 374, "height": 247 }
+			},
+			"11451415": {
+				"11451415": { "x": 15.93, "y": 2.16, "width": 314, "height": 305 }
+			},
+			"11451416": {
+				"11451416": { "x": 19.43, "y": -7.84, "width": 307, "height": 295 }
+			},
+			"11451418": {
+				"11451418": { "x": -4.86, "y": 26.15, "width": 158, "height": 240 }
+			},
+			"11451419": {
+				"11451419": { "x": -86.7, "y": 23.86, "width": 603, "height": 487 }
+			},
+			"宁夏": {
+				"宁夏": { "x": -0.54, "y": -1.68, "width": 82, "height": 40 }
+			},
+			"内蒙古": {
+				"内蒙古": { "x": 3.49, "y": 3.78, "width": 123, "height": 40 }
+			},
+			"1145145": {
+				"1145145": { "x": 19.27, "y": 4.12, "width": 176, "height": 167 }
+			},
+			"烟尘5": {
+				"烟尘": { "x": 8.88, "y": -0.03, "scaleX": 0.3898, "scaleY": 0.3898, "width": 546, "height": 374 }
+			},
+			"1145147": {
+				"1145147": { "x": 35.08, "y": 6.44, "width": 206, "height": 129 }
+			},
+			"图层 91": {
+				"图层 91": { "x": 669, "y": -166, "width": 590, "height": 336 }
+			},
+			"图层 92": {
+				"图层 92": { "x": 432.5, "y": -259.5, "width": 387, "height": 321 }
+			},
+			"图层 93": {
+				"图层 93": { "x": 612.5, "y": -336, "width": 155, "height": 240 }
+			},
+			"图层 94": {
+				"图层 94": { "x": 554.5, "y": -275, "width": 81, "height": 118 }
+			},
+			"图层 95": {
+				"图层 95": { "x": 717.5, "y": -276.5, "width": 103, "height": 187 }
+			},
+			"1145144": {
+				"1145144": { "x": -13.86, "y": 32.65, "width": 170, "height": 255 }
+			},
+			"图层 97": {
+				"图层 97": { "x": 891, "y": -309.5, "width": 192, "height": 115 }
+			},
+			"图层 98": {
+				"图层 98": { "x": 757.5, "y": -389, "width": 169, "height": 160 }
+			},
+			"图层 99": {
+				"图层 99": { "x": 465.5, "y": -463.5, "width": 303, "height": 227 }
+			},
+			"烟尘6": {
+				"烟尘": { "x": 8.88, "y": -0.03, "scaleX": 0.3898, "scaleY": 0.3898, "width": 546, "height": 374 }
+			},
+			"变黄效果": {
+				"变黄效果": { "x": -23.03, "y": -50.92, "width": 610, "height": 207 }
+			},
+			"山西": {
+				"山西": { "x": -0.95, "y": -1.51, "width": 81, "height": 38 }
+			},
+			"1145149": {
+				"1145149": { "x": 19.77, "y": -4.88, "width": 173, "height": 163 }
+			},
+			"11451421": {
+				"11451421": { "x": -23.66, "y": -18.28, "width": 397, "height": 331 }
+			},
+			"11451423": {
+				"11451423": { "x": -11.1, "y": -12.67, "width": 369, "height": 244 }
+			},
+			"11451425": {
+				"11451425": { "x": 1.8, "y": 1.99, "width": 87, "height": 124 }
+			},
+			"11451426": {
+				"11451426": { "x": -15.66, "y": -17.78, "width": 393, "height": 324 }
+			},
+			"烟尘3": {
+				"烟尘": {
+					"x": 8.88,
+					"y": -0.03,
+					"scaleX": 0.3107,
+					"scaleY": 0.3107,
+					"rotation": 21.63,
+					"width": 546,
+					"height": 374
+				}
+			},
+			"山东": {
+				"山东": { "x": 4.62, "y": -0.45, "width": 80, "height": 40 }
+			},
+			"图层 86 拷贝": {
+				"图层 86 拷贝": { "x": 508.5, "y": -287.5, "width": 637, "height": 575 }
+			},
+			"huangseditu2": {
+				"灰色": { "x": 552, "y": -287.5, "width": 868, "height": 576 }
+			},
+			"1145148": {
+				"1145148": { "x": 38.58, "y": -6.06, "width": 195, "height": 116 }
+			},
+			"烟尘2": {
+				"烟尘": { "x": 8.88, "y": -0.03, "scaleX": 0.3898, "scaleY": 0.3898, "width": 546, "height": 374 }
+			},
+			"图层 103": {
+				"图层 103": { "x": 298, "y": -299, "width": 362, "height": 240 }
+			},
+			"图层 104": {
+				"图层 104": { "x": -12.8, "y": 21.54, "width": 121, "height": 160 }
+			},
+			"图层 105": {
+				"图层 105": { "x": -5.92, "y": 20.96, "width": 154, "height": 167 }
+			},
+			"图层 106": {
+				"图层 106": { "x": 1.46, "y": 2.35, "width": 78, "height": 103 }
+			},
+			"图层 107": {
+				"图层 107": { "x": 0.54, "y": 14, "width": 82, "height": 150 }
+			},
+			"图层 108": {
+				"图层 108": { "x": -0.21, "y": 2.01, "width": 45, "height": 144 }
+			},
+			"图层 109": {
+				"图层 109": { "x": -0.45, "y": 14.46, "width": 146, "height": 109 }
+			},
+			"11451431": {
+				"11451431": { "x": 419.6, "y": -22.75, "width": 1042, "height": 587 }
+			},
+			"11451430": {
+				"11451430": { "x": 419.6, "y": -22.75, "width": 1042, "height": 587 }
+			},
+			"四川": {
+				"四川": { "x": 10.87, "y": 0.55, "width": 77, "height": 37 }
+			},
+			"11451432": {
+				"11451432": { "x": -25.16, "y": 483.88, "width": 1026, "height": 579 }
+			},
+			"青海": {
+				"青海": { "x": 1.31, "y": 1.83, "width": 82, "height": 41 }
+			},
+			"烟尘4": {
+				"烟尘": { "x": 8.88, "y": -0.03, "scaleX": 0.3898, "scaleY": 0.3898, "width": 546, "height": 374 }
+			},
+			"甘肃": {
+				"甘肃": { "x": 2.55, "y": -1.02, "width": 83, "height": 40 }
+			},
+			"图层 110": {
+				"图层 110": { "x": -2.2, "y": 14.17, "width": 190, "height": 98 }
+			},
+			"图层 111": {
+				"图层 111": { "x": -1.82, "y": 9.33, "width": 55, "height": 167 }
+			},
+			"图层 112": {
+				"图层 112": { "x": 6.34, "y": -10.95, "width": 156, "height": 96 }
+			},
+			"陕西": {
+				"陕西": { "x": 4.67, "y": 0.26, "width": 81, "height": 40 }
+			}
+		}
+	}
+],
+"animations": {
+	"db1": {
+		"slots": {
+			"11451416": {
+				"color": [
+					{ "time": 1.6, "color": "ffffff00" },
+					{ "time": 1.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.6, "name": "11451416" }
+				]
+			},
+			"图层 110": {
+				"color": [
+					{ "time": 3.3, "color": "ffffff00" },
+					{ "time": 3.4667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 3.3, "name": "图层 110" }
+				]
+			},
+			"河南": {
+				"attachment": [
+					{ "time": 3.8667, "name": "河南" }
+				]
+			},
+			"11451428": {
+				"color": [
+					{ "time": 2.6, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 2.6, "name": "11451428" }
+				]
+			},
+			"山西": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 3.4, "name": "山西" }
+				]
+			},
+			"11451425": {
+				"color": [
+					{ "time": 2.6, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 2.6, "name": "11451425" }
+				]
+			},
+			"内蒙古": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 2.8, "name": "内蒙古" }
+				]
+			},
+			"11451430": {
+				"attachment": [
+					{ "name": "11451430" }
+				]
+			},
+			"图层 112": {
+				"color": [
+					{ "time": 4.1667, "color": "ffffff00" },
+					{ "time": 4.3333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 4.1667, "name": "图层 112" }
+				]
+			},
+			"宁夏": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 2.6, "name": "宁夏" }
+				]
+			},
+			"11451426": {
+				"color": [
+					{ "time": 2.0667, "color": "ffffff00" },
+					{ "time": 2.2333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 2.0667, "name": "11451426" }
+				]
+			},
+			"甘肃": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 2.2333, "name": "甘肃" }
+				]
+			},
+			"山东": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 4.4667, "name": "山东" }
+				]
+			},
+			"1145147": {
+				"color": [
+					{ "time": 4.4667, "color": "ffffff00" },
+					{ "time": 4.6333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 4.4667, "name": "1145147" }
+				]
+			},
+			"图层 5": {
+				"attachment": [
+					{ "name": "图层 5" }
+				]
+			},
+			"11451413": {
+				"color": [
+					{ "time": 1.1667, "color": "ffffff03", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffffff03" },
+					{ "time": 1.5, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.1667, "name": "11451413" }
+				]
+			},
+			"图层 106": {
+				"color": [
+					{ "time": 1.8333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.9333, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.8333, "name": "图层 106" }
+				]
+			},
+			"陕西": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 3.0667, "name": "陕西" }
+				]
+			},
+			"青海": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.1667, "name": "青海" }
+				]
+			},
+			"图层 111": {
+				"color": [
+					{ "time": 4.7, "color": "ffffff00" },
+					{ "time": 4.9333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 4.7, "name": "图层 111" }
+				]
+			},
+			"图层 104": {
+				"color": [
+					{ "time": 1.4333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.5667, "color": "ffffff00" },
+					{ "time": 1.6, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.4333, "name": "图层 104" }
+				]
+			},
+			"图层 105": {
+				"color": [
+					{ "time": 2.2333, "color": "ffffff08" },
+					{ "time": 2.4, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 2.2333, "name": "图层 105" }
+				]
+			},
+			"11451419": {
+				"color": [
+					{ "time": 2.8, "color": "ffffff00" },
+					{ "time": 2.9667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 2.8, "name": "11451419" }
+				]
+			},
+			"1145148": {
+				"color": [
+					{ "time": 4.4667, "color": "ffffff00" },
+					{ "time": 4.6333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 4.4667, "name": "1145148" }
+				]
+			},
+			"图层 109": {
+				"color": [
+					{ "time": 2.9667, "color": "ffffff00" },
+					{ "time": 3.1333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 2.9667, "name": "图层 109" }
+				]
+			},
+			"1145144": {
+				"color": [
+					{ "time": 3.0667, "color": "ffffff00" },
+					{ "time": 3.2333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 3.0667, "name": "1145144" }
+				]
+			},
+			"11451429": {
+				"color": [
+					{ "time": 2.8, "color": "ffffff00" },
+					{ "time": 2.9667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 2.8, "name": "11451429" }
+				]
+			},
+			"11451411": {
+				"color": [
+					{ "time": 3.3, "color": "ffffff01", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.4667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 3.3, "name": "11451411" }
+				]
+			},
+			"图层 108": {
+				"color": [
+					{ "time": 2.6, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 2.6, "name": "图层 108" }
+				]
+			},
+			"11451412": {
+				"color": [
+					{ "time": 3.3, "color": "ffffff01", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.4667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 3.3, "name": "11451412" }
+				]
+			},
+			"11451423": {
+				"color": [
+					{ "time": 1.1667, "color": "ffffff03", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffffff03" },
+					{ "time": 1.5, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.1667, "name": "11451423" }
+				]
+			},
+			"1145149": {
+				"color": [
+					{ "time": 3.8667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.0333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 3.8667, "name": "1145149" }
+				]
+			},
+			"四川": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.6, "name": "四川" }
+				]
+			},
+			"图层 107": {
+				"color": [
+					{ "time": 3.0667, "color": "ffffff00" },
+					{ "time": 3.2333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 3.0667, "name": "图层 107" }
+				]
+			},
+			"11451431": {
+				"attachment": [
+					{ "name": "11451431" }
+				]
+			},
+			"11451418": {
+				"color": [
+					{ "time": 3.0667, "color": "ffffff00" },
+					{ "time": 3.2333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 3.0667, "name": "11451418" }
+				]
+			},
+			"11451415": {
+				"color": [
+					{ "time": 1.6, "color": "ffffff00" },
+					{ "time": 1.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 1.6, "name": "11451415" }
+				]
+			},
+			"11451421": {
+				"color": [
+					{ "time": 2.0667, "color": "ffffff00" },
+					{ "time": 2.2333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 2.0667, "name": "11451421" }
+				]
+			},
+			"图层 86 拷贝": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"1145145": {
+				"color": [
+					{ "time": 3.8667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.0333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 3.8667, "name": "1145145" }
+				]
+			}
+		},
+		"bones": {
+			"bone4": {
+				"translate": [
+					{ "time": 4.4667, "y": 68.28, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.6333, "y": -8.53, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.8 }
+				]
+			},
+			"bone16": {
+				"translate": [
+					{ "time": 4.1667, "y": -43.48, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.3333, "y": -11.39 },
+					{ "time": 4.4 }
+				],
+				"scale": [
+					{ "time": 4.1667, "x": 1.041, "y": 0.907, "curve": 0.25, "c3": 0.359 },
+					{ "time": 4.3333 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 2.8, "y": 68.28, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.9667, "y": -8.53 },
+					{ "time": 3.1333 }
+				]
+			},
+			"bone22": {
+				"translate": [
+					{ "time": 2.6, "y": 68.28, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.7667, "y": -8.53 },
+					{ "time": 2.9333 }
+				]
+			},
+			"bone7": {
+				"translate": [
+					{ "time": 2.0667, "y": 68.28 },
+					{ "time": 2.2333, "y": -8.53 },
+					{ "time": 2.4 }
+				]
+			},
+			"bone8": {
+				"translate": [
+					{ "time": 1.1667, "y": 68.28 },
+					{ "time": 1.3333, "y": -8.53 },
+					{ "time": 1.5 }
+				]
+			},
+			"bone6": {
+				"translate": [
+					{ "time": 3.0667, "y": 68.28 },
+					{ "time": 3.2333, "y": -8.53 },
+					{ "time": 3.4 }
+				]
+			},
+			"bone9": {
+				"translate": [
+					{ "time": 1.6, "y": 68.28 },
+					{ "time": 1.7667, "y": -8.53 },
+					{ "time": 1.9333 }
+				]
+			},
+			"bone29": {
+				"translate": [
+					{ "time": 3.3, "y": 68.28, "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.4667, "y": -8.53, "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.6333 }
+				]
+			},
+			"bone5": {
+				"translate": [
+					{ "time": 3.8667, "y": 68.28, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.0333, "y": -8.53, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.2 }
+				]
+			},
+			"bone19": {
+				"translate": [
+					{ "time": 4.7, "y": -36.41 },
+					{ "time": 4.7667, "y": -43.48, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.9, "y": 2.63 },
+					{ "time": 5 }
+				],
+				"scale": [
+					{ "time": 4.7667, "x": 1.041, "y": 0.907, "curve": 0.25, "c3": 0.359 },
+					{ "time": 4.9333 }
+				]
+			},
+			"bone31": {
+				"translate": [
+					{ "time": 3.3, "y": -43.48, "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.4667, "y": -11.39 },
+					{ "time": 3.5333 }
+				],
+				"scale": [
+					{ "time": 3.3, "x": 1.041, "y": 0.907, "curve": 0.25, "c3": 0.359 },
+					{ "time": 3.4667 }
+				]
+			},
+			"bone20": {
+				"translate": [
+					{ "time": 2.9667, "y": -43.48, "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.1333, "y": -11.39 },
+					{ "time": 3.2 }
+				],
+				"scale": [
+					{ "time": 2.9667, "x": 1.041, "y": 0.907, "curve": 0.25, "c3": 0.359 },
+					{ "time": 3.1333 }
+				]
+			},
+			"bone23": {
+				"translate": [
+					{ "time": 2.6, "y": -161.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.7667, "y": -8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.8333 }
+				]
+			},
+			"bone14": {
+				"translate": [
+					{ "time": 3.0667, "y": -94.25, "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.2333, "y": 26.95 },
+					{ "time": 3.3 }
+				],
+				"scale": [
+					{ "time": 3.0667, "x": 1.041, "y": 0.907, "curve": 0.25, "c3": 0.359 },
+					{ "time": 3.2333 }
+				]
+			},
+			"bone11": {
+				"translate": [
+					{ "time": 1.8333, "y": -43.48, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "y": -11.39 },
+					{ "time": 2.0667 }
+				],
+				"scale": [
+					{ "time": 1.8333, "x": 1.041, "y": 0.907, "curve": 0.25, "c3": 0.359 },
+					{ "time": 2 }
+				]
+			},
+			"bone26": {
+				"translate": [
+					{ "time": 2.2333, "y": -43.48, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.4, "y": -11.39 },
+					{ "time": 2.4667 }
+				],
+				"scale": [
+					{ "time": 2.2333, "x": 1.041, "y": 0.907, "curve": 0.25, "c3": 0.359 },
+					{ "time": 2.4 }
+				]
+			},
+			"bone28": {
+				"translate": [
+					{ "time": 1.4333, "y": -43.48, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6, "y": -11.39 },
+					{ "time": 1.6667 }
+				],
+				"scale": [
+					{ "time": 1.4333, "x": 1.041, "y": 0.907, "curve": 0.25, "c3": 0.359 },
+					{ "time": 1.6 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"bone32": {
+					"bone32": [
+						{
+							"vertices": [ -121.3056, 0, -121.3056, 0, -121.3056, 0, -121.3056 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -108.98785, 10.74527, -36.61647, -46.53787, 42.00758, -8.0496, -108.9879, -9.1728 ]
+						},
+						{
+							"time": 0.2667,
+							"vertices": [ -107.22818, 12.2803, -17.78566, -113.27393, 82.12997, 17.54789, -107.22823, -10.4832 ]
+						},
+						{
+							"time": 0.5667,
+							"vertices": [ -91.39108, 26.09565, 204.532, -48.09548, 263.573, -5.71298, -91.39118, -22.27681 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -87.87172, 29.16573, 232.59515, 48.38223, 264.58157, 138.50352, -42.94435, -152.94238 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -84.35236, 32.2358, 363.37994, 56.94397, 285.0931, 133.13026, -47.59364, -132.28232 ]
+						},
+						{
+							"time": 0.8667,
+							"vertices": [ -75.55397, 39.911, 453.53412, 50.8924, 307.54303, -14.33818, -59.21687, -80.63214 ]
+						},
+						{
+							"time": 1.1333,
+							"vertices": [ -68.51526, 46.05115, 525.6575, 46.05115, 525.6573, -39.31201, -68.51544, -39.31201 ]
+						}
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "huangseditu", "offset": -12 },
+					{ "slot": "11451431", "offset": -19 }
+				]
+			}
+		]
+	},
+	"db1_idle": {
+		"slots": {
+			"图层 5": {
+				"attachment": [
+					{ "name": "图层 5" }
+				]
+			},
+			"11451430": {
+				"attachment": [
+					{ "name": "11451430" }
+				]
+			},
+			"图层 112": {
+				"attachment": [
+					{ "name": "图层 112" }
+				]
+			},
+			"11451431": {
+				"attachment": [
+					{ "name": "11451431" }
+				]
+			},
+			"河南": {
+				"attachment": [
+					{ "name": "河南" }
+				]
+			},
+			"图层 86 拷贝": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"bone32": {
+					"bone32": [
+						{
+							"vertices": [ -68.51526, 46.05115, 525.6575, 46.05115, 525.6573, -39.31201, -68.51544, -39.31201 ]
+						}
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "huangseditu", "offset": -12 },
+					{ "slot": "11451431", "offset": -19 }
+				]
+			}
+		]
+	},
+	"db2": {
+		"slots": {
+			"图层 110": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "color": "ffffff00" }
+				]
+			},
+			"图层 104": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "color": "ffffff00" }
+				]
+			},
+			"图层 5": {
+				"attachment": [
+					{ "name": "图层 5" }
+				]
+			},
+			"11451430": {
+				"attachment": [
+					{ "name": "11451430" }
+				]
+			},
+			"图层 112": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "图层 112" }
+				]
+			},
+			"图层 111": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "color": "ffffff00" }
+				]
+			},
+			"11451431": {
+				"attachment": [
+					{ "name": "11451431" }
+				]
+			},
+			"图层 106": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "color": "ffffff00" }
+				]
+			},
+			"图层 105": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "color": "ffffff00" }
+				]
+			},
+			"图层 109": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "color": "ffffff00" }
+				]
+			},
+			"图层 108": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "color": "ffffff00" }
+				]
+			},
+			"图层 107": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "color": "ffffff00" }
+				]
+			},
+			"河南": {
+				"attachment": [
+					{ "name": "河南" }
+				]
+			},
+			"图层 86 拷贝": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone16": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "angle": -0.82, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "angle": -96.17, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "angle": -86.52 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "x": -1.52, "y": -28.06 }
+				]
+			},
+			"bone28": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "angle": -0.82, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "angle": -96.17, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "angle": -86.52 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "x": -1.52, "y": -28.06 }
+				]
+			},
+			"bone23": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "angle": -0.82, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "angle": -96.17, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "angle": -86.52 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "x": -1.52, "y": -28.06 }
+				]
+			},
+			"bone31": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "angle": -0.82, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "angle": -96.17, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "angle": -86.52 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "x": -1.52, "y": -28.06 }
+				]
+			},
+			"bone11": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "angle": -0.82, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "angle": -96.17, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "angle": -86.52 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "x": -1.52, "y": -28.06 }
+				]
+			},
+			"bone26": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "angle": -0.82, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "angle": -96.17, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "angle": -86.52 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "x": -1.52, "y": -28.06 }
+				]
+			},
+			"bone19": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "angle": -0.82, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "angle": -96.17, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "angle": -86.52 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "x": -1.52, "y": -28.06 }
+				]
+			},
+			"bone20": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "angle": -0.82, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "angle": -96.17, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "angle": -86.52 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "x": -1.52, "y": -28.06 }
+				]
+			},
+			"bone14": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "angle": -0.82, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "angle": -96.17, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "angle": -86.52 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "x": -1.52, "y": -28.06 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"bone32": {
+					"bone32": [
+						{
+							"vertices": [ -68.51526, 46.05115, 525.6575, 46.05115, 525.6573, -39.31201, -68.51544, -39.31201 ]
+						}
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "huangseditu", "offset": -12 },
+					{ "slot": "11451431", "offset": -19 }
+				]
+			}
+		]
+	},
+	"db3": {
+		"slots": {
+			"图层 86 拷贝": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"图层 110": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"图层 104": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"11451428": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"图层 107": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"11451425": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"11451426": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"烟尘5": {
+				"color": [
+					{ "time": 0.9667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4667, "color": "ffffffff" },
+					{ "time": 2.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.9667, "name": "烟尘" }
+				]
+			},
+			"烟尘3": {
+				"color": [
+					{ "time": 1.1667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6667, "color": "ffffffff" },
+					{ "time": 2.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.1667, "name": "烟尘" }
+				]
+			},
+			"11451430": {
+				"attachment": [
+					{ "name": "11451430" }
+				]
+			},
+			"烟尘4": {
+				"color": [
+					{ "time": 0.9667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4667, "color": "ffffffff" },
+					{ "time": 2.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.9667, "name": "烟尘" }
+				]
+			},
+			"图层 112": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "图层 112" }
+				]
+			},
+			"烟尘2": {
+				"color": [
+					{ "time": 0.7, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2, "color": "ffffffff" },
+					{ "time": 1.8667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.7, "name": "烟尘" }
+				]
+			},
+			"11451429": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"图层 111": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"1145147": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"11451419": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"11451413": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"图层 106": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"图层 105": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"1145145": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"11451416": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"图层 109": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"1145144": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"图层 5": {
+				"attachment": [
+					{ "name": "图层 5" }
+				]
+			},
+			"11451411": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"图层 108": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"11451412": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"11451423": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"1145149": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"huangseditu": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "color": "fffffff7" }
+				],
+				"attachment": [
+					{ "time": 3.3667, "name": null }
+				]
+			},
+			"河南": {
+				"attachment": [
+					{ "name": "河南" }
+				]
+			},
+			"11451431": {
+				"attachment": [
+					{ "name": "11451431" }
+				]
+			},
+			"11451418": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"烟尘6": {
+				"color": [
+					{ "time": 1.3333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.8333, "color": "ffffffff" },
+					{ "time": 2.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.3333, "name": "烟尘" }
+				]
+			},
+			"11451415": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"11451421": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"1145148": {
+				"color": [
+					{ "time": 4, "color": "ffffffff" },
+					{ "time": 4.1667, "color": "ffffff00" }
+				]
+			},
+			"huangseditu2": {
+				"color": [
+					{ "time": 2.8333, "color": "ffffff00" },
+					{ "time": 3.3333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 2.8333, "name": "灰色" }
+				]
+			}
+		},
+		"bones": {
+			"bone4": {
+				"translate": [
+					{ "time": 4 },
+					{ "time": 4.6667, "y": 965.58 }
+				]
+			},
+			"bone16": {
+				"rotate": [
+					{ "angle": -86.52 }
+				],
+				"translate": [
+					{ "x": -1.52, "y": -28.06 }
+				]
+			},
+			"bone22": {
+				"translate": [
+					{ "time": 4 },
+					{ "time": 4.6667, "y": 965.58 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 4 },
+					{ "time": 4.6667, "y": 965.58 }
+				]
+			},
+			"bone29": {
+				"translate": [
+					{ "time": 4 },
+					{ "time": 4.6667, "y": 965.58 }
+				]
+			},
+			"bone5": {
+				"translate": [
+					{ "time": 4 },
+					{ "time": 4.6667, "y": 965.58 }
+				]
+			},
+			"bone7": {
+				"translate": [
+					{ "time": 4 },
+					{ "time": 4.6667, "y": 965.58 }
+				]
+			},
+			"bone19": {
+				"rotate": [
+					{ "angle": -86.52 }
+				],
+				"translate": [
+					{ "x": -1.52, "y": -28.06 }
+				]
+			},
+			"bone31": {
+				"rotate": [
+					{ "angle": -86.52 }
+				],
+				"translate": [
+					{ "x": -1.52, "y": -28.06 }
+				]
+			},
+			"bone20": {
+				"rotate": [
+					{ "angle": -86.52 }
+				],
+				"translate": [
+					{ "x": -1.52, "y": -28.06 }
+				]
+			},
+			"bone26": {
+				"rotate": [
+					{ "angle": -86.52 }
+				],
+				"translate": [
+					{ "x": -1.52, "y": -28.06 }
+				]
+			},
+			"bone9": {
+				"translate": [
+					{ "time": 4 },
+					{ "time": 4.6667, "y": 965.58 }
+				]
+			},
+			"bone8": {
+				"translate": [
+					{ "time": 4 },
+					{ "time": 4.6667, "y": 965.58 }
+				]
+			},
+			"bone11": {
+				"rotate": [
+					{ "angle": -86.52 }
+				],
+				"translate": [
+					{ "x": -1.52, "y": -28.06 }
+				]
+			},
+			"bone28": {
+				"rotate": [
+					{ "angle": -86.52 }
+				],
+				"translate": [
+					{ "x": -1.52, "y": -28.06 }
+				]
+			},
+			"bone6": {
+				"translate": [
+					{ "time": 4 },
+					{ "time": 4.6667, "y": 965.58 }
+				]
+			},
+			"bone23": {
+				"rotate": [
+					{ "angle": -86.52 }
+				],
+				"translate": [
+					{ "x": -1.52, "y": -28.06 }
+				]
+			},
+			"bone14": {
+				"rotate": [
+					{ "angle": -86.52 }
+				],
+				"translate": [
+					{ "x": -1.52, "y": -28.06 }
+				]
+			},
+			"yanchen": {
+				"rotate": [
+					{ "time": 0.7, "angle": 20.6, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2, "angle": -8.12, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.8667, "angle": -4.2 }
+				],
+				"translate": [
+					{ "time": 0.7, "x": 251.74, "y": 455.45 }
+				],
+				"scale": [
+					{ "time": 0.7, "x": 0.874, "y": 0.874, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2, "x": 1.195, "y": 1.195, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.8667, "x": 2.176, "y": 1.082 }
+				]
+			},
+			"yanchen2": {
+				"rotate": [
+					{ "time": 1.1667, "angle": 20.6, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6667, "angle": -8.12, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.3333, "angle": -4.2 }
+				],
+				"translate": [
+					{ "time": 1.1667, "x": 251.74, "y": 455.45 }
+				],
+				"scale": [
+					{ "time": 1.1667, "x": 0.874, "y": 0.874, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6667, "x": 1.195, "y": 1.195, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.3333, "x": 2.176, "y": 1.082 }
+				]
+			},
+			"yanchen3": {
+				"rotate": [
+					{ "time": 0.9667, "angle": 20.6, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4667, "angle": 20.52, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.1333, "angle": -4.2 }
+				],
+				"translate": [
+					{ "time": 0.9667, "x": 251.74, "y": 455.45 }
+				],
+				"scale": [
+					{ "time": 0.9667, "x": 0.874, "y": 0.874, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4667, "x": 1.251, "y": 1.251, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.1333, "x": 2.176, "y": 1.082 }
+				]
+			},
+			"yanchen4": {
+				"rotate": [
+					{ "time": 0.9667, "angle": 32.33, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4667, "angle": -14.99, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.1333, "angle": -13.87 }
+				],
+				"translate": [
+					{ "time": 0.9667, "x": 251.74, "y": 455.45 },
+					{ "time": 1.4667, "x": 284.86, "y": 414.45 }
+				],
+				"scale": [
+					{ "time": 0.9667, "x": 0.758, "y": 0.758, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4667, "x": 1.365, "y": 1.365, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.1333, "x": 1.307, "y": 0.65 }
+				]
+			},
+			"yanchen5": {
+				"rotate": [
+					{ "time": 1.3333, "angle": 20.6, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.8333, "angle": 20.52, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.5, "angle": -4.2 }
+				],
+				"translate": [
+					{ "time": 1.3333, "x": 251.74, "y": 455.45 }
+				],
+				"scale": [
+					{ "time": 1.3333, "x": 0.874, "y": 0.874, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.8333, "x": 1.251, "y": 1.251, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.5, "x": 2.176, "y": 1.082 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"bone32": {
+					"bone32": [
+						{
+							"vertices": [ -68.51526, 46.05115, 525.6575, 46.05115, 525.6573, -39.31201, -68.51544, -39.31201 ]
+						}
+					]
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "huangseditu", "offset": 24 },
+					{ "slot": "11451431", "offset": -19 }
+				]
+			},
+			{
+				"time": 2.8333,
+				"offsets": [
+					{ "slot": "huangseditu", "offset": 23 },
+					{ "slot": "huangseditu2", "offset": 25 },
+					{ "slot": "11451431", "offset": -19 }
+				]
+			}
+		]
+	}
+}
+}

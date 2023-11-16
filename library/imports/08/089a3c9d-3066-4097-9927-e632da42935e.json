@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "山西-tuqi",
+    "texture": "d14e5887-c74b-4304-9ff2-eaf8663f0882",
+    "atlas": "",
+    "rect": [
+      25,
+      11,
+      156,
+      274
+    ],
+    "offset": [
+      7,
+      2.5
+    ],
+    "originalSize": [
+      192,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

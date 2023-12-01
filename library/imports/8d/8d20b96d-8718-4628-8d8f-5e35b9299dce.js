@@ -37,11 +37,13 @@ var GameUI = /** @class */ (function (_super) {
     __extends(GameUI, _super);
     function GameUI() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.start_layer = null;
         _this.start_anim = null;
         _this.ditu_panel = null;
         _this.fill_node = null;
         _this.pipi = null;
-        _this.trueAnswer = ['shandong_tuqi', "sichuan_tuqi", "henan_tuqi", "ningxia_tuqi", "qinghai_tuqi", "shanxi1-tuqi", "gansu_tuqi", "shanxi_tuai", "neimeng_tuqi"];
+        // private trueAnswer = ['shandong_tuqi', "sichuan_tuqi", "henan_tuqi", "ningxia_tuqi", "qinghai_tuqi", "shanxi1-tuqi", "gansu_tuqi", "shanxi_tuai", "neimeng_tuqi"];
+        _this.trueAnswer = ['neimeng_tuqi', "shanxi_tuai", "gansu_tuqi", "shanxi1-tuqi", "qinghai_tuqi", "ningxia_tuqi", "henan_tuqi", "sichuan_tuqi", 'shandong_tuqi'];
         return _this;
     }
     GameUI.prototype.onLoad = function () {
@@ -78,6 +80,8 @@ var GameUI = /** @class */ (function (_super) {
                     if (this.ditu_panel.children[j].name == SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.answers[i]) {
                         this.ditu_panel.children[j].getChildByName("mianji_1").active = false;
                         this.ditu_panel.children[j].getChildByName("mianji_2").active = true;
+                        this.ditu_panel.children[j].getChildByName("diming_1").active = false;
+                        this.ditu_panel.children[j].getChildByName("diming_2").active = true;
                         this.fill_node.children[i].getComponent(FillArea_1.default).fill(this.ditu_panel.children[j]);
                     }
                 }
@@ -107,22 +111,35 @@ var GameUI = /** @class */ (function (_super) {
         for (var i = 0; i < this.fill_node.childrenCount; i++) {
             var kuang = this.fill_node.children[i].getChildByName("kuang");
             var neikuang = this.fill_node.children[i].getChildByName("neikuang");
+            // this.fill_node.children[i].getChildByName("skeleton").active = true;
             kuang.active = false;
             neikuang.active = false;
         }
     };
     GameUI.prototype.playStartAnim = function () {
         var _this = this;
+        this.start_layer.active = true;
         this.start_anim.node.active = true;
-        this.start_anim.node.opacity = 255;
-        Tools_1.Tools.playSpine(this.start_anim, "db1", false, function () {
-            Tools_1.Tools.playSpine(_this.start_anim, "db1_idle", false, function () {
-                Tools_1.Tools.playSpine(_this.start_anim, "db2", false, function () {
-                    Tools_1.Tools.playSpine(_this.start_anim, "db3", false, function () {
-                        cc.tween(_this.start_anim.node).to(0.5, { opacity: 0 }).call(function () {
-                            _this.start_anim.node.active = false;
-                            UIHelp_1.UIHelp.closeMask();
-                        }).start();
+        this.start_layer.opacity = 255;
+        this.start_anim.node.x = 8;
+        this.start_anim.node.y = -581;
+        this.start_layer.getChildByName("02").active = true;
+        this.start_layer.getChildByName("03").active = false;
+        Tools_1.Tools.playSpine(this.start_anim, "ditu01", false, function () {
+            _this.start_anim.node.x = 8;
+            _this.start_anim.node.y = -562;
+            Tools_1.Tools.playSpine(_this.start_anim, "ditu02", false, function () {
+                Tools_1.Tools.playSpine(_this.start_anim, "ditu03", false, function () {
+                    _this.start_layer.getChildByName("03").active = true;
+                    Tools_1.Tools.playSpine(_this.start_anim, "ditu04", false, function () {
+                        _this.start_layer.getChildByName("02").active = false;
+                        _this.start_layer.getChildByName("03").active = false;
+                        Tools_1.Tools.playSpine(_this.start_anim, "ditu05", false, function () {
+                            cc.tween(_this.start_layer).to(0.5, { opacity: 0 }).call(function () {
+                                _this.start_layer.active = false;
+                                UIHelp_1.UIHelp.closeMask();
+                            }).start();
+                        });
                     });
                 });
             });
@@ -150,9 +167,10 @@ var GameUI = /** @class */ (function (_super) {
         ListenerManager_1.ListenerManager.dispatch(EventType_1.EventType.SUBMIT, true);
         SoundManager_1.SoundManager.playEffect(SoundConfig_1.SoundConfig.soudlist["正确反馈01"], false, false);
         for (var i = 0; i < this.fill_node.childrenCount; i++) {
-            var neikuang = this.fill_node.children[i].getChildByName("neikuang");
+            var neikuang = this.fill_node.children[i].getChildByName("kuang");
+            // this.fill_node.children[i].getChildByName("skeleton").active = false;
             neikuang.active = true;
-            neikuang.color = cc.Color.GREEN;
+            // neikuang.color = cc.Color.GREEN;
         }
         this.pipi.node.active = true;
         Tools_1.Tools.playSpine(this.pipi, "win", false, function () {
@@ -166,15 +184,17 @@ var GameUI = /** @class */ (function (_super) {
     GameUI.prototype.handleWrong = function () {
         var _this = this;
         ListenerManager_1.ListenerManager.dispatch(EventType_1.EventType.SUBMIT, false);
+        UIHelp_1.UIHelp.showMask();
         SoundManager_1.SoundManager.playEffect(SoundConfig_1.SoundConfig.soudlist["错误音效"], false, false, false, function () {
             SoundManager_1.SoundManager.playEffect(SoundConfig_1.SoundConfig.soudlist["错误音效"], false, false);
         });
         var selfAnswer = SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.answers;
         var _loop_1 = function (i) {
             if (selfAnswer[i] != this_1.trueAnswer[i]) {
-                var kuang_1 = this_1.fill_node.children[i].getChildByName("kuang");
+                var kuang_1 = this_1.fill_node.children[i].getChildByName("neikuang");
+                // this.fill_node.children[i].getChildByName("skeleton").active = false;
                 kuang_1.active = true;
-                kuang_1.color = cc.Color.RED;
+                // kuang.color = cc.Color.RED;
                 cc.tween(kuang_1).to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
                     .to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
                     .to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
@@ -183,7 +203,9 @@ var GameUI = /** @class */ (function (_super) {
                     .to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
                     .to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
                     .call(function () {
+                    UIHelp_1.UIHelp.closeMask();
                     if (_this.fill_node.children[i].getChildByName("fillArea").childrenCount > 0) {
+                        // this.fill_node.children[i].getChildByName("skeleton").active = true;
                         kuang_1.active = false;
                         _this.fill_node.children[i].getChildByName("fillArea").children[0].getComponent(DituDrag_1.default).reset();
                     }
@@ -195,6 +217,9 @@ var GameUI = /** @class */ (function (_super) {
             _loop_1(i);
         }
     };
+    __decorate([
+        property(cc.Node)
+    ], GameUI.prototype, "start_layer", void 0);
     __decorate([
         property(sp.Skeleton)
     ], GameUI.prototype, "start_anim", void 0);

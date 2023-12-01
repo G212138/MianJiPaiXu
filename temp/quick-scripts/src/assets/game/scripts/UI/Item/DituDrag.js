@@ -42,15 +42,21 @@ var DituDrag = /** @class */ (function (_super) {
         this.initParent = this.node.parent;
         this.node.getChildByName("mianji_1").active = true;
         this.node.getChildByName("mianji_2").active = false;
+        this.node.getChildByName("diming_1").active = true;
+        this.node.getChildByName("diming_2").active = false;
     };
     DituDrag.prototype.onDragStart = function (event) {
         var pos = event.target.parent.convertToWorldSpaceAR(cc.v2(event.pos.x, event.pos.y));
         this.node.getChildByName("mianji_1").active = false;
         this.node.getChildByName("mianji_2").active = true;
+        this.node.getChildByName("diming_1").active = false;
+        this.node.getChildByName("diming_2").active = true;
     };
     DituDrag.prototype.onDragMove = function (event) {
         this.node.getChildByName("mianji_1").active = false;
         this.node.getChildByName("mianji_2").active = true;
+        this.node.getChildByName("diming_1").active = false;
+        this.node.getChildByName("diming_2").active = true;
         var pos = event.target.parent.convertToWorldSpaceAR(cc.v2(event.pos.x, event.pos.y));
         ListenerManager_1.ListenerManager.dispatch(EventType_1.EventType.ON_DRAG_DITU, pos);
     };
@@ -74,6 +80,8 @@ var DituDrag = /** @class */ (function (_super) {
         this.node.position = this.initPos;
         this.node.getChildByName("mianji_1").active = true;
         this.node.getChildByName("mianji_2").active = false;
+        this.node.getChildByName("diming_1").active = true;
+        this.node.getChildByName("diming_2").active = false;
     };
     __decorate([
         property(cc.Node)

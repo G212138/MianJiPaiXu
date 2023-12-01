@@ -19,17 +19,23 @@ export default class DituDrag extends cc.Component {
         this.initParent = this.node.parent;
         this.node.getChildByName("mianji_1").active = true;
         this.node.getChildByName("mianji_2").active = false;
+        this.node.getChildByName("diming_1").active = true;
+        this.node.getChildByName("diming_2").active = false;
     }
 
     private onDragStart(event) {
         let pos = event.target.parent.convertToWorldSpaceAR(cc.v2(event.pos.x, event.pos.y));
         this.node.getChildByName("mianji_1").active = false;
         this.node.getChildByName("mianji_2").active = true;
+        this.node.getChildByName("diming_1").active = false;
+        this.node.getChildByName("diming_2").active = true;
     }
 
     private onDragMove(event) {
         this.node.getChildByName("mianji_1").active = false;
         this.node.getChildByName("mianji_2").active = true;
+        this.node.getChildByName("diming_1").active = false;
+        this.node.getChildByName("diming_2").active = true;
         let pos = event.target.parent.convertToWorldSpaceAR(cc.v2(event.pos.x, event.pos.y));
         ListenerManager.dispatch(EventType.ON_DRAG_DITU, pos);
     }
@@ -54,5 +60,7 @@ export default class DituDrag extends cc.Component {
         this.node.position = this.initPos;
         this.node.getChildByName("mianji_1").active = true;
         this.node.getChildByName("mianji_2").active = false;
+        this.node.getChildByName("diming_1").active = true;
+        this.node.getChildByName("diming_2").active = false;
     }
 }

@@ -13,6 +13,8 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class GameUI extends cc.Component {
+    @property(cc.Node)
+    private start_layer: cc.Node = null;
     @property(sp.Skeleton)
     private start_anim: sp.Skeleton = null;
     @property(cc.Node)
@@ -38,9 +40,9 @@ export default class GameUI extends cc.Component {
 
     private handleEnterGame() {
         this.resetUI();
-        this.initUI();                
+        this.initUI();
         this.playStartAnim();
-        UIHelp.showMask();        
+        UIHelp.showMask();
     }
 
     private resetUI() {
@@ -59,6 +61,8 @@ export default class GameUI extends cc.Component {
                     if (this.ditu_panel.children[j].name == SyncDataManager.getSyncData().customSyncData.answers[i]) {
                         this.ditu_panel.children[j].getChildByName("mianji_1").active = false;
                         this.ditu_panel.children[j].getChildByName("mianji_2").active = true;
+                        this.ditu_panel.children[j].getChildByName("diming_1").active = false;
+                        this.ditu_panel.children[j].getChildByName("diming_2").active = true;
                         this.fill_node.children[i].getComponent(FillArea).fill(this.ditu_panel.children[j]);
                     }
                 }
@@ -89,29 +93,44 @@ export default class GameUI extends cc.Component {
         for (let i = 0; i < this.fill_node.childrenCount; i++) {
             let kuang = this.fill_node.children[i].getChildByName("kuang");
             let neikuang = this.fill_node.children[i].getChildByName("neikuang");
+            // this.fill_node.children[i].getChildByName("skeleton").active = true;
             kuang.active = false;
             neikuang.active = false;
         }
     }
 
     private playStartAnim() {
+        this.start_layer.active = true;
         this.start_anim.node.active = true;
-        this.start_anim.node.opacity = 255;
-        Tools.playSpine(this.start_anim, "db1", false, () => {
-            Tools.playSpine(this.start_anim, "db1_idle", false, () => {
-                Tools.playSpine(this.start_anim, "db2", false, () => {
-                    Tools.playSpine(this.start_anim, "db3", false, () => {
-                        cc.tween(this.start_anim.node).to(0.5, { opacity: 0 }).call(() => {
-                            this.start_anim.node.active = false;
-                            UIHelp.closeMask();
-                        }).start();
+        this.start_layer.opacity = 255;
+        this.start_anim.node.x = 8;
+        this.start_anim.node.y = -581;
+        this.start_layer.getChildByName("02").active = true;
+        this.start_layer.getChildByName("03").active = false;
+        Tools.playSpine(this.start_anim, "ditu01", false, () => {
+            this.start_anim.node.x = 8;
+            this.start_anim.node.y = -562;
+            Tools.playSpine(this.start_anim, "ditu02", false, () => {
+                Tools.playSpine(this.start_anim, "ditu03", false, () => {
+                    this.start_layer.getChildByName("03").active = true;
+                    Tools.playSpine(this.start_anim, "ditu04", false, () => {
+                        this.start_layer.getChildByName("02").active = false;
+                        this.start_layer.getChildByName("03").active = false;
+                        Tools.playSpine(this.start_anim, "ditu05", false, () => {
+
+                            cc.tween(this.start_layer).to(0.5, { opacity: 0 }).call(() => {
+                                this.start_layer.active = false;
+                                UIHelp.closeMask();
+                            }).start();
+                        });
                     });
                 });
             });
         });
     }
 
-    private trueAnswer = ['shandong_tuqi', "sichuan_tuqi", "henan_tuqi", "ningxia_tuqi", "qinghai_tuqi", "shanxi1-tuqi", "gansu_tuqi", "shanxi_tuai", "neimeng_tuqi"];
+    // private trueAnswer = ['shandong_tuqi', "sichuan_tuqi", "henan_tuqi", "ningxia_tuqi", "qinghai_tuqi", "shanxi1-tuqi", "gansu_tuqi", "shanxi_tuai", "neimeng_tuqi"];
+    private trueAnswer = ['neimeng_tuqi',"shanxi_tuai","gansu_tuqi","shanxi1-tuqi","qinghai_tuqi","ningxia_tuqi","henan_tuqi","sichuan_tuqi",'shandong_tuqi']
     private onClickCheck() {
         SoundManager.playEffect(SoundConfig.soudlist["点击音效"], false, false);
         let isAllRight = true;
@@ -134,14 +153,15 @@ export default class GameUI extends cc.Component {
         ListenerManager.dispatch(EventType.SUBMIT, true);
         SoundManager.playEffect(SoundConfig.soudlist["正确反馈01"], false, false);
         for (let i = 0; i < this.fill_node.childrenCount; i++) {
-            let neikuang = this.fill_node.children[i].getChildByName("neikuang");
+            let neikuang = this.fill_node.children[i].getChildByName("kuang");
+            // this.fill_node.children[i].getChildByName("skeleton").active = false;
             neikuang.active = true;
-            neikuang.color = cc.Color.GREEN;
+            // neikuang.color = cc.Color.GREEN;
         }
         this.pipi.node.active = true;
         Tools.playSpine(this.pipi, "win", false, () => {
             Tools.playSpine(this.pipi, "win2", true, () => {
-                
+
             });
         });
         this.scheduleOnce(() => {
@@ -151,28 +171,32 @@ export default class GameUI extends cc.Component {
 
     private handleWrong() {
         ListenerManager.dispatch(EventType.SUBMIT, false);
+        UIHelp.showMask();
         SoundManager.playEffect(SoundConfig.soudlist["错误音效"], false, false, false, () => {
             SoundManager.playEffect(SoundConfig.soudlist["错误音效"], false, false);
         });
         let selfAnswer = SyncDataManager.getSyncData().customSyncData.answers;
         for (let i = 0; i < selfAnswer.length; i++) {
             if (selfAnswer[i] != this.trueAnswer[i]) {
-                let kuang = this.fill_node.children[i].getChildByName("kuang");
+                let kuang = this.fill_node.children[i].getChildByName("neikuang");
+                // this.fill_node.children[i].getChildByName("skeleton").active = false;
                 kuang.active = true;
-                kuang.color = cc.Color.RED;
+                // kuang.color = cc.Color.RED;
                 cc.tween(kuang).to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
-                .to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
-                .to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
-                .to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
-                .to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
-                .to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
-                .to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
-                .call(() => {
-                    if (this.fill_node.children[i].getChildByName("fillArea").childrenCount > 0) {
-                        kuang.active = false;
-                        this.fill_node.children[i].getChildByName("fillArea").children[0].getComponent(DituDrag).reset();
-                    }
-                }).start();
+                    .to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
+                    .to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
+                    .to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
+                    .to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
+                    .to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
+                    .to(0.1, { opacity: 255 }).delay(0.15).to(0.1, { opacity: 0 })
+                    .call(() => {
+                        UIHelp.closeMask();
+                        if (this.fill_node.children[i].getChildByName("fillArea").childrenCount > 0) {
+                            // this.fill_node.children[i].getChildByName("skeleton").active = true;
+                            kuang.active = false;
+                            this.fill_node.children[i].getChildByName("fillArea").children[0].getComponent(DituDrag).reset();
+                        }
+                    }).start();
             }
         }
     }
